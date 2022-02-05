@@ -16,17 +16,17 @@ var a1=Math.floor(Math.random() * 6) + 1;
 
 
 if(a1===1)
-document.querySelectorAll("img")[0].setAttribute("src","dice1.png");
+document.querySelectorAll("img")[1].setAttribute("src","dice1.png");
 else if(a1===2)
-document.querySelectorAll("img")[0].setAttribute("src","dice2.png");
+document.querySelectorAll("img")[1].setAttribute("src","dice2.png");
 else if(a1===3)
-document.querySelectorAll("img")[0].setAttribute("src","dice3.png");
+document.querySelectorAll("img")[1].setAttribute("src","dice3.png");
 else if(a1===4)
-document.querySelectorAll("img")[0].setAttribute("src","dice4.png");
+document.querySelectorAll("img")[1].setAttribute("src","dice4.png");
 else if(a1===5)
-document.querySelectorAll("img")[0].setAttribute("src","dice5.png");
+document.querySelectorAll("img")[1].setAttribute("src","dice5.png");
 else if(a1===6)
-document.querySelectorAll("img")[0].setAttribute("src","dice6.png");
+document.querySelectorAll("img")[1].setAttribute("src","dice6.png");
 
 
 if(a<a1)
